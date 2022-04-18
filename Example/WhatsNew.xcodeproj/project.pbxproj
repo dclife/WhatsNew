@@ -44,6 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* WhatsNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewTests.swift; sourceTree = "<group>"; };
 		669AB9EAD59978E937498CBD /* Pods-WhatsNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNew_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNew_Example/Pods-WhatsNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		782E5557280D97B300632C49 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		B2C5D20E2D3C479AE2BB3870 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C2F71234FC605F13D6858D4D /* Pods_WhatsNew_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F03A69224BA466E1CE2417 /* Pods-WhatsNew_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNew_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNew_Tests/Pods-WhatsNew_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				782E5557280D97B300632C49 /* Package.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for WhatsNew */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -229,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
