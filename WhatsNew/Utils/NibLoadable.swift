@@ -5,9 +5,9 @@
 //  Created by Patrick Balestra on 10/21/17.
 //
 
-import Foundation
+import UIKit
 
-protocol NibLoadable: class { }
+protocol NibLoadable: AnyObject { }
 
 extension NibLoadable where Self: UIView {
 
